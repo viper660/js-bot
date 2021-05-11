@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js")
 
 module.exports = (client) => {
-    const suggestinChannel = client.channels.cache.get('805048963744923686') // Channel For Suggestion
+    const suggestinChannel = client.channels.cache.get('751349250511732789') // Channel For Suggestion
     client.on('message', message => {
         if(message.channel === suggestinChannel) {
             if(message.author.bot) return // Doesnot Delete BOTs Messages

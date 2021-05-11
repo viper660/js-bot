@@ -21,13 +21,13 @@ module.exports ={
         .setColor('RANDOM')
         .setTitle(`User Info Of ${member.user.username}`, member.user.displayAvatarURL())
         .setThumbnail(member.user.displayAvatarURL({dynamic: true, size: 512}))
-        .addField('<a:Right:805663924267384852> **User-Name**', `${member.user.username}#${member.user.discriminator}`) // We Use Emojis Also
-        .addField('<a:Right:805663924267384852> **User ID**', `${member.id}`)
-        .addField('<a:Right:805663924267384852> **Status**', `${status[member.presence.status]}`)
-        .addField('<a:Right:805663924267384852> **Account Created**', `${moment.utc(member.user.createdAt).format('LLLL')}`)
-        .addField('<a:Right:805663924267384852> **Joined Server**', `${moment.utc(member.joinedAt).format('LLLL')}`)
-        .addField('<a:Right:805663924267384852> **VC**', member.voice.channel ? member.voice.channel.name + `(${member.voice.channel.id})` : 'Not In A VC')
-        .addField('<a:Right:805663924267384852> **Roles**', `${member.roles.cache.map(role => role.toString())}`, true)
+        .addField(' **User-Name**', `${member.user.username}#${member.user.discriminator}`) // We Use Emojis Also
+        .addField(' **User ID**', `${member.id}`)
+        .addField(' **Status**', `${status[member.presence.status]}`)
+        .addField(' **Account Created**', `${moment.utc(member.user.createdAt).format('LLLL')}`)
+        .addField(' **Joined Server**', `${moment.utc(member.joinedAt).format('LLLL')}`)
+        .addField(' **VC**', member.voice.channel ? member.voice.channel.name + `(${member.voice.channel.id})` : 'Not In A VC')
+        .addField(' **Roles**', `${member.roles.cache.map(role => role.toString())}`, true)
         // Add More Fields If Want
         message.channel.send(embed)
     }

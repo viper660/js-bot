@@ -15,7 +15,7 @@ const activities_list = [
     "DM ME FOR ANY ASSISTENCE", 
     "📢-ᴡᴇʟᴄᴏᴍᴇ",
     "💬-ᴄʜᴀᴛꜱ",
-    "𝕋𝕄ℙ - [ᴍᴄ/ꜰɪᴠᴇᴍ/ʀᴇᴅᴍ]"
+    "𝕂𝔾ℂ - 𝕂𝕖𝕣𝕒𝕝𝕒 𝔾𝕒𝕞𝕖𝕣𝕤 ℂ𝕠𝕞𝕞𝕦𝕟𝕚𝕥𝕪"
     ];
 
     client.on('ready', () => {
@@ -33,7 +33,7 @@ const activities_list = [
       
 //bot log
 client.once('ready', () => {
-    console.log('𝕋𝕄ℙ bot is now online...');
+    console.log('𝕂𝔾ℂ bot is now online...');
 });
 
 //say command starts here
@@ -48,7 +48,7 @@ client.on("message", (message) => {
     .setDescription(text)
     .setThumbnail('https://cdn.discordapp.com/attachments/814158971346223144/819561892614766602/MOSHED-2021-2-24-18-6-48.gif')
     .setImage('https://media.discordapp.net/attachments/786193887978979438/786386654650433586/13-26-52-nitro_1.gif')   
-    .setFooter('TPMC BOT')
+    .setFooter('KGC BOT')
     .setTimestamp()
       message.channel.send(embed);
       message.channel.stopTyping()
@@ -68,7 +68,7 @@ client.on("message", (message) => {
     
 
     client.on('message', message => {
-        const channelid = '841040641790312458' // Channel ID
+        const channelid = '837196648005369897' // Channel ID
         if(message.channel.id === channelid) {
             if(message.author.bot) return
             fetch(
@@ -81,7 +81,7 @@ client.on("message", (message) => {
         }
     })
     client.on("messageDelete", message => {
-        const channel = client.channels.cache.get('814134419304611851') // Channel ID
+        const channel = client.channels.cache.get('832185120366395447') // Channel ID
         const embed = new Discord.MessageEmbed()
         .setAuthor('Message Deleted')
         .setColor('RANDOM')
