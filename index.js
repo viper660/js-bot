@@ -81,7 +81,7 @@ client.on("message", (message) => {
         }
     })
     client.on("messageDelete", message => {
-        const channel = client.channels.cache.get('832185120366395447') // Channel ID
+        const channel = client.channels.cache.get('799527156945649664') // Channel ID
         const embed = new Discord.MessageEmbed()
         .setAuthor('Message Deleted')
         .setColor('RANDOM')
