@@ -46,7 +46,7 @@ client.on("message", (message) => {
     .setColor("RANDOM")
     .setTitle('ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ')
     .setDescription(text)
-    .setThumbnail('https://cdn.discordapp.com/attachments/814158971346223144/819561892614766602/MOSHED-2021-2-24-18-6-48.gif')
+    .setThumbnail('https://cdn.discordapp.com/attachments/727881924361584640/787993497118310430/Animated_GIF-downsized.gif')
     .setImage('https://media.discordapp.net/attachments/786193887978979438/786386654650433586/13-26-52-nitro_1.gif')   
     .setFooter('KGC BOT')
     .setTimestamp()
