@@ -1,20 +1,25 @@
 {
-  "name": "tpmctech",
+  "name": "js-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viper660/js-bot.git"
+  },
   "author": "viper",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viper660/js-bot/issues"
+  },
+  "homepage": "https://github.com/viper660/js-bot#readme",
   "dependencies": {
     "@iamtraction/google-translate": "^1.1.2",
     "discord.js": "^12.5.3",
-    "gamedig": "^3.0.3",
-    "id": "0.0.0",
     "moment": "^2.29.1",
-    "node-fetch": "^2.6.1",
-    "start": "^5.1.0"
+    "node-fetch": "^2.6.1"
   }
 }
